@@ -89,4 +89,21 @@ let unicode = 'ㄱ' as u32; // 유니코드
 println!("ascii: {}", ascii);
 println!("not_ascii: {}", not_ascii);
 println!("unicode: {}", unicode);
+
+// string에서 .len()은 길이 값이 아니라 전체 바이트 값을 나타낸다. 유니코드에서 a,b,c 등 알파벳은 1바이트, ㄱ은 3바이트만 사용하기에 그 숫자가 표현됨.
+println!("a len: {}", "a".len());
+println!("ㄱ len: {}", "ㄱ".len());
+println!("ㄱㄴㄷㄻ: {}", "ㄱㄴㄷㄻ".len());
+```
+마지막 정리
+```rs
+let num = 10u8; // u8 크기인 10을 나타냄
+let num2 = 10_u8; // u8 크기인 10을 나타냄
+let num3 = 10________________u8; // u8 크기인 10을 나타냄, _ 가 얼마나 있던 컴파일러는 무시
+let num4 = 1_000_000_000u32; // 따라서 이런 것 도 가능
+
+// 소수점 자료형 floating point
+f32 / f64 두 개
+let floating = 9.6; // f64
+floating as i32; // 찍어보면 9로 출력됨. 이 부분은 c언어와 같다.
 ```

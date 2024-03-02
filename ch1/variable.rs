@@ -18,4 +18,11 @@ fn main() {
     println!("ascii: {}", ascii);
     println!("not_ascii: {}", not_ascii);
     println!("unicode: {}", unicode);
+
+    // string에서 .len()은 길이 값이 아니라 바이트 값을 나타낸다.
+    println!("a len: {}", "a".len());
+    println!("ㄱ len: {}", "ㄱ".len());
+    println!("ㄱㄴㄷㄻ: {}", "ㄱㄴㄷㄻ".len());
+    println!("ʊ: {}", "ʊ".len()); // 독일어
+    println!("ʊʊʊʊ: {}", "ʊʊʊʊ".len());
 }

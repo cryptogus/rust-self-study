@@ -2,7 +2,8 @@
 Thanks to  \
 https://www.youtube.com/watch?v=W9DO6m8JSSs&list=PLfllocyHVgsSJf1zO6k6o3SX2mbZjAqYE  \
 https://doc.rust-kr.org/  \
-https://google.github.io/comprehensive-rust/ko/
+https://google.github.io/comprehensive-rust/ko/  \
+https://dhghomon.github.io/easy_rust/
 
 Ubuntu 22.04 LTS 환경에서 진행하였음. vscode사용자라면 rust-analyzer라는 Rust language support for Visual Studio Code 확장을 설치하는 것도 좋다.
 ## install rust
