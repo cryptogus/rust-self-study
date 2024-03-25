@@ -6,7 +6,7 @@ https://google.github.io/comprehensive-rust/ko/  \
 https://dhghomon.github.io/easy_rust/
 
 Ubuntu 22.04 LTS 환경에서 진행하였음. vscode사용자라면 rust-analyzer라는 Rust language support for Visual Studio Code 확장을 설치하는 것도 좋다.
-## install rust
+## install rust (rustup 설치)
 https://www.rust-lang.org/tools/install
 ```bash
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
