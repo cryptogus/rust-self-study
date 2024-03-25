@@ -1,11 +1,13 @@
 # hello_world.rs
-
+파일명을 지을 때는 두 단어 이상으로 이루어질 경우에는 helloworld.rs 와 같이 붙여서 쓰지 않고 hello_world.rs처럼 단어 사이에 밑줄 (_) 을 넣는 것이 관례입니다.
 ## 주석 관련 추가 내용
 컴파일러가 변수 앞에 _가 붙으면 무시해버림  \
 변수 이름으로 한글도 가능함
 
 ## rustfmt
 rustfmt를 사용하여 러스트 코드 스타일을 통일 시킬 수 있다.  \
+러스트 팀은 이 도구를 rustc처럼 기본 러스트 배포에 포함시켰으므로, 이미 여러분의 컴퓨터에 설치되어 있습니다만\
+
 rustfmt 도구를 설치.
 ```bash
 $ rustup component add rustfmt
@@ -107,3 +109,4 @@ f32 / f64 두 개
 let floating = 9.6; // f64
 floating as i32; // 찍어보면 9로 출력됨. 이 부분은 c언어와 같다.
 ```
+[Next is cargo](cargo.md)
